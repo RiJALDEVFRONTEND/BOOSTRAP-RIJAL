@@ -274,3 +274,126 @@ section {
   letter-spacing: 0.5px;
   margin-bottom: 0.5rem;
 }
+
+/* ===== FOOTER SECTION ===== */
+/* ===== FOOTER SECTION ===== */
+.footer {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #eaeaea;
+  padding: 60px 0 20px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+/* Kolom umum */
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-column h2 {
+  color: #00d4ff;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+}
+
+.footer-column h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.footer-column p {
+  color: #ccc;
+  line-height: 1.7;
+}
+
+/* Navigasi */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #00d4ff;
+  padding-left: 5px;
+}
+
+/* Sosial Media */
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social a {
+  color: #eaeaea;
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+  background: #00d4ff;
+  color: #0f2027;
+  transform: translateY(-3px);
+}
+
+/* Garis & Copyright */
+.footer-divider {
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 40px 0 20px;
+}
+
+.footer-copy {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+  .footer-links a:hover {
+    padding-left: 0;
+  }
+}
+/* ===== FOOTER SECTION ===== */
+/* ===== FOOTER SECTION ===== */

@@ -48,6 +48,11 @@ section {
   }
 }
 
+/* buat animate css */
+.hero-box .box:nth-child(1) {
+  --animate-delay: 0.5s;
+}
+
 .hero p {
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
@@ -397,3 +402,28 @@ section {
 }
 /* ===== FOOTER SECTION ===== */
 /* ===== FOOTER SECTION ===== */
+
+/* Scrollbar untuk Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* transparan, biar clean */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #4da3ff, #007bff);
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0056b3, #004080);
+}
+
+/* Scrollbar untuk Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4da3ff transparent;
+}
